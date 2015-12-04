@@ -1,4 +1,4 @@
-zchase/Jeyll:
+zchase/jekyll:
 
   PreBuild:
     - echo "mom"
