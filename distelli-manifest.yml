@@ -1,0 +1,8 @@
+zchase/Jeyll:
+
+  PreBuild:
+    - echo "mom"
+
+  Build:
+    - jekyll
+
