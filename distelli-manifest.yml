@@ -1,5 +1,8 @@
 zchase/jekyll:
 
+  PkgInclude:
+    - '*'
+
   PreInstall:
     - 'if [ -a /etc/nginx ]; then'
     -     echo "NGINX is already installed"
