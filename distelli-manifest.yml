@@ -4,6 +4,11 @@ zchase/jekyll:
     - '*'
 
   PreInstall:
+    - 'if [ -a /usr/bin/jekyll ]; then'
+    -     echo "Jekyll is already installed"
+    - else
+    -     sudo apt-get install jekyll -y
+    - fi
     - 'if [ -a /etc/nginx ]; then'
     -     echo "NGINX is already installed"
     - else
@@ -12,4 +17,5 @@ zchase/jekyll:
     - sudo rm -rf /usr/share/nginx/html/*
 
   Start:
+    - jekyll build
     - sudo mv -v _site/* /usr/share/nginx/html/

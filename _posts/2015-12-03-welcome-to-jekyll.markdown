@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll (Deployed by Distelli)!"
 date:   2015-12-03 15:57:12 -0800
 categories: jekyll update
 ---
-See how easy it is to deploy websites with Distelli? Create a repeatable deployment process that keeps you doing what you do best. Writing engaging content or writing cool applications. MOM HELP
+See how easy it is to deploy websites with Distelli? Create a repeatable deployment process that keeps you doing what you do best. Writing engaging content or writing cool applications. MOM HELP. IT WORKED
 
 {% highlight javascript %}
 var express = require('express');
