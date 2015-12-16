@@ -17,5 +17,5 @@ zchase/jekyll:
     - sudo rm -rf /usr/share/nginx/html/*
 
   Start:
-    - jekyll build
+    - /usr/bin/jekyll build
     - sudo mv -v _site/* /usr/share/nginx/html/
