@@ -4,5 +4,6 @@ zchase/jekyll:
     - echo "mom"
 
   Build:
+    - gem install jekyll
     - jekyll
 
