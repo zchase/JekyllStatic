@@ -8,5 +8,6 @@ zchase/jekyll:
     - fi
     - sudo rm -rf /usr/share/nginx/html/*
 
-  Exec:
+  Start:
+  	- pwd
     - mv -v _site/* /usr/share/nginx/html/
