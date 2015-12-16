@@ -1,0 +1,9 @@
+zchase/jekyll:
+
+  PreBuild:
+    - echo "mom"
+
+  Build:
+    - gem install jekyll
+    - jekyll
+
