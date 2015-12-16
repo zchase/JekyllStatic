@@ -9,5 +9,5 @@ zchase/jekyll:
     - sudo rm -rf /usr/share/nginx/html/*
 
   Start:
-  	- pwd
+    - pwd
     - mv -v _site/* /usr/share/nginx/html/
