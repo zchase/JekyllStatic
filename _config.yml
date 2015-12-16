@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jekyll Website (Deploy by Distelli)
+title: Jekyll Website (Deployed by Distelli)
 email: zack@distelli.com
 description: > # this means to ignore newlines until "baseurl:"
   A basic site for setting up deployments through Distelli

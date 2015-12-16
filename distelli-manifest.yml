@@ -1,0 +1,10 @@
+zchase/jekyll:
+
+  PreInstall:
+    - 'if [ -a /etc/nginx ]; then'
+    -     echo "NGINX is already installed"
+    - else
+    -     sudo apt-get install nginx -y
+    - fi
+    - rm /usr/share/nginx/html/*
+    - mv -v _sites/* /usr/share/nginx/html/
