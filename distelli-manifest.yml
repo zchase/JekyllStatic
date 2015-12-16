@@ -6,5 +6,5 @@ zchase/jekyll:
     - else
     -     sudo apt-get install nginx -y
     - fi
-    - sudo rm -f /usr/share/nginx/html/*
+    - sudo rm -rf /usr/share/nginx/html/*
     - mv -v _sites/* /usr/share/nginx/html/
