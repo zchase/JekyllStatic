@@ -4,7 +4,7 @@ zchase/jekyll:
     - '_site/'
 
   PreRelease:
-    - rvm install ruby-2.1.1
+    - sudo rvm install ruby-2.1.1
     - ruby -v
     - which gem
     - which nodejs
