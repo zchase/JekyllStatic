@@ -5,9 +5,6 @@ zchase/jekyll:
 
   PreRelease:
     - ruby -v
-    - which gem
-    - which nodejs
-    - which python
     - gem install jekyll
     - which jekyll
 
