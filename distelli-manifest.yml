@@ -5,7 +5,9 @@ zchase/jekyll:
 
   PreRelease:
     - echo "Mom"
-    - which ruby
+    - rvm --default use 2.1.1
+    - ruby -v
+    - which jekyll
 
   PreInstall:
     - 'if [ -a /usr/bin/jekyll ]; then'
