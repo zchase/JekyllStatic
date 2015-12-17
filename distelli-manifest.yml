@@ -8,6 +8,8 @@ zchase/jekyll:
     - ruby -v
     - gem install jekyll
     - which jekyll
+    - ls
+    - jekyll build
 
   PreInstall:
     - 'if [ -a /usr/bin/jekyll ]; then'
