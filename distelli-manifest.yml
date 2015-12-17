@@ -4,6 +4,7 @@ zchase/jekyll:
     - '_site/'
 
   PreRelease:
+    - rvm use 2.0.0
     - ruby -v
     - gem install jekyll
     - which jekyll
