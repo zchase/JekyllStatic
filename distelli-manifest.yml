@@ -4,9 +4,12 @@ zchase/jekyll:
     - '_site/'
 
   PreRelease:
-    - echo "Mom"
-    - rvm --default use 2.1.1
+    - rvm install ruby-2.1.1
     - ruby -v
+    - which gem
+    - which nodejs
+    - which python
+    - gem install jekyll
     - which jekyll
 
   PreInstall:
