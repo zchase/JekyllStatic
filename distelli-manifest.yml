@@ -3,6 +3,10 @@ zchase/jekyll:
   PkgInclude:
     - '_site/'
 
+  PreRelease:
+    - echo "Mom"
+    - which ruby
+
   PreInstall:
     - 'if [ -a /usr/bin/jekyll ]; then'
     -     echo "Jekyll is already installed"
